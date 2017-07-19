@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ToDoList</string>
+
+    <string-array name="importance">
+        <item>Urgent</item>
+        <item>Important</item>
+        <item>Mediocre</item>
+        <item>Lethargic</item>
+    </string-array>
 </resources>

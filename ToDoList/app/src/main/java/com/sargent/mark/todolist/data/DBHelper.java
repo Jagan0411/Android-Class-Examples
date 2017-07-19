@@ -21,10 +21,13 @@ public class DBHelper extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+
+        //Created category column
         String queryString = "CREATE TABLE " + Contract.TABLE_TODO.TABLE_NAME + " ("+
                 Contract.TABLE_TODO._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
                 Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION + " TEXT NOT NULL, " +
-                Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE + " DATE " + "); ";
+                Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE + " DATE, " +
+                Contract.TABLE_TODO.COLUMN_NAME_CATEGORY + " TEXT NOT NULL" + ");";
 
         Log.d(TAG, "Create table SQL: " + queryString);
         db.execSQL(queryString);

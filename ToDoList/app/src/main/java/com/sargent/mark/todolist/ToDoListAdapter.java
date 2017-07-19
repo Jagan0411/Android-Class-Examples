@@ -10,9 +10,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.sargent.mark.todolist.data.Contract;
-import com.sargent.mark.todolist.data.ToDoItem;
-
-import java.util.ArrayList;
 
 /**
  * Created by mark on 7/4/17.
@@ -45,8 +42,9 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
         return cursor.getCount();
     }
 
+    //Category parameter added
     public interface ItemClickListener {
-        void onItemClick(int pos, String description, String duedate, long id);
+        void onItemClick(int pos, String description, String duedate, long id, String category);
     }
 
     public ToDoListAdapter(Cursor cursor, ItemClickListener listener) {
@@ -63,11 +61,14 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
         }
     }
 
+    //Updated values to TextView from tables
     class ItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView descr;
         TextView due;
+        TextView category_type;
         String duedate;
         String description;
+        String category;
         long id;
 
 
@@ -75,6 +76,7 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
             super(view);
             descr = (TextView) view.findViewById(R.id.description);
             due = (TextView) view.findViewById(R.id.dueDate);
+            category_type = (TextView) view.findViewById(R.id.category_type);
             view.setOnClickListener(this);
         }
 
@@ -85,15 +87,19 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
 
             duedate = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE));
             description = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION));
+
+            //Updating category
+            category = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_CATEGORY));
             descr.setText(description);
             due.setText(duedate);
+            category_type.setText(category);
             holder.itemView.setTag(id);
         }
 
         @Override
         public void onClick(View v) {
             int pos = getAdapterPosition();
-            listener.onItemClick(pos, description, duedate, id);
+            listener.onItemClick(pos, description, duedate, id, category);
         }
     }
 

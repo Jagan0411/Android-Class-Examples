@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp">
+    android:padding="10dp"
+    >
 
     <TextView
         android:id="@+id/description"
@@ -11,11 +12,40 @@
         android:textSize="20dp"
         android:text="To do description"/>
 
-    <TextView
-        android:id="@+id/dueDate"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="14dp"
-        android:text="06-04-2017"/>
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/dueDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="06-04-2017"
+            android:layout_alignParentLeft="true"
+            />
+
+        //A TextView to display the type of category in each ToDo
+        <TextView
+            android:id="@+id/category_type"
+            android:text="Category"
+
+            android:layout_toRightOf="@id/dueDate"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        //CheckBox for each ToDo whether it's done or not done
+        <CheckBox
+            android:id="@+id/todo_checkbox"
+            android:text="Done"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
 
 </LinearLayout>

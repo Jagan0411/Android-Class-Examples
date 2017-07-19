@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
     android:weightSum="1"
+    android:background="#feffaa"
     tools:context="com.sargent.mark.todolist.MainActivity">
 
     <android.support.v7.widget.RecyclerView
@@ -14,6 +15,33 @@
         android:layout_width="match_parent"
         android:layout_height="0dip"
         android:layout_weight=".90" />
+
+    //added button and spinner to filter categories
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+        <Button
+            android:id="@+id/bfilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_style"
+
+            android:text="Categorized View"
+            android:padding="4dp"
+            />
+
+    </LinearLayout>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/addToDo"
