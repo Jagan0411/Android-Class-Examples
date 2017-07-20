@@ -32,11 +32,11 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\harish\.android
 	android:supportsRtl
 		ADDED from C:\Users\harish\Desktop\CS5540\Homework3\Android-Class-Examples\ToDoList\app\src\main\AndroidManifest.xml:10:9-35
 	android:roundIcon
-		ADDED from C:\Users\harish\Desktop\CS5540\Homework3\Android-Class-Examples\ToDoList\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\harish\Desktop\CS5540\Homework3\Android-Class-Examples\ToDoList\app\src\main\AndroidManifest.xml:9:9-46
 	android:allowBackup
 		ADDED from C:\Users\harish\Desktop\CS5540\Homework3\Android-Class-Examples\ToDoList\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\Users\harish\Desktop\CS5540\Homework3\Android-Class-Examples\ToDoList\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\harish\Desktop\CS5540\Homework3\Android-Class-Examples\ToDoList\app\src\main\AndroidManifest.xml:7:9-41
 	android:theme
 		ADDED from C:\Users\harish\Desktop\CS5540\Homework3\Android-Class-Examples\ToDoList\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.sargent.mark.todolist.MainActivity

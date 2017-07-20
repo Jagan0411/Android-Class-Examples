@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <string-array name="importance">
+        <item>Choose category..</item>
         <item>Urgent</item>
         <item>Important</item>
         <item>Mediocre</item>

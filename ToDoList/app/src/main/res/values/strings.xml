@@ -2,6 +2,7 @@
     <string name="app_name">ToDoList</string>
 
     <string-array name="importance">
+        <item>Choose category..</item>
         <item>Urgent</item>
         <item>Important</item>
         <item>Mediocre</item>

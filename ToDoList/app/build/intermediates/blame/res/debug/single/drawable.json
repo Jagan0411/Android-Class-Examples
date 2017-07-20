@@ -8,6 +8,10 @@
         "source": "C:\\Users\\harish\\.android\\build-cache\\ba61493d100da04e7842ee38880dc951bd653448\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
+        "source": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "C:\\Users\\harish\\.android\\build-cache\\ba61493d100da04e7842ee38880dc951bd653448\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
@@ -84,6 +88,10 @@
         "source": "C:\\Users\\harish\\.android\\build-cache\\ba61493d100da04e7842ee38880dc951bd653448\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
+        "merged": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\iconschecked.png",
+        "source": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\src\\main\\res\\drawable\\iconschecked.png"
+    },
+    {
         "merged": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\harish\\.android\\build-cache\\ba61493d100da04e7842ee38880dc951bd653448\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
@@ -138,6 +146,10 @@
     {
         "merged": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\harish\\.android\\build-cache\\ba61493d100da04e7842ee38880dc951bd653448\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\iconsunchecked.png",
+        "source": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\src\\main\\res\\drawable\\iconsunchecked.png"
     },
     {
         "merged": "C:\\Users\\harish\\Desktop\\CS5540\\Homework3\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",

@@ -25,8 +25,12 @@
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="#bebebe"
+            android:popupBackground="#e7d26e"
+            >
         </Spinner>
 
         <Button
@@ -48,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dip"
         android:layout_weight=".10"
-        android:text="Add Item"
+
         android:src="@drawable/ic_add_black_48dp"/>
 
 </LinearLayout>
